@@ -7,7 +7,9 @@
       "Bash(rmdir src/assets)",
       "Bash(npm run *)",
       "Bash(tasklist //FI \"IMAGENAME eq node.exe\")",
-      "Bash(taskkill //F //IM node.exe)"
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(npm ls *)",
+      "Bash(xargs grep -ln \"iso\")"
     ]
   }
 }
